@@ -1,5 +1,5 @@
 import streamlit as st
- 
+import pymysql
 st.title('Tools Log')
 
 Tools_ID_input = st.text_area('Tools Id')
