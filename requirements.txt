@@ -3,5 +3,3 @@ pandas
 mysql
 mysql-connector-python
 plotly
-streamlit
-streamlit-option-menu
