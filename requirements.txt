@@ -1,4 +1,7 @@
 # requirements.txt
-mysqlclient==2.2.0
-SQLAlchemy==2.0.1
-mysql-connector-python==8.1.0
+pandas
+mysql
+mysql-connector-python
+plotly
+streamlit
+streamlit-option-menu
