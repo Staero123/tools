@@ -1,6 +1,7 @@
 import streamlit as st
  
-st.title('My First Streamlit App')
+st.title('Tools Log')
 
-text_input = st.text_input('Tools Id', )
-st.markdown(f"Tools ID is : {text_input} ")
+Tools_ID_input = st.number_area('Tools Id','Employee ID')
+st.markdown(f"Tools ID is : {Tools_ID_input} ")
+
