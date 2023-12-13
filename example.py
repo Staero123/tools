@@ -1,6 +1,13 @@
 import streamlit as st
 import mysql.connector
 
+
+@st.cache_resource
+def init_connection():
+  return mysql.connector.connect(**st.secrets["mysql"]_
+conn = init_connection()
+
+
 st.title('Tools Log')
 
 Tools_ID_input = st.text_area('Tools Id')
