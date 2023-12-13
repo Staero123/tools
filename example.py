@@ -1,4 +1,5 @@
 import streamlit as st
+pip install mysqlclient
 conn = st.connection('mysql', type='sql')
 
 st.title('Tools Log')
