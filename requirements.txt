@@ -2,4 +2,3 @@
 pandas
 mysql
 mysql-connector-python
-plotly
