@@ -1,6 +1,1 @@
-# requirements.txt
-pandas
-mysql-connector-python==8.1.0
-mysql-connector==2.2.9
-mysql==0.0.3
-pip==23.3.1
+
