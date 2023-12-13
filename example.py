@@ -13,3 +13,5 @@ port = 3307
 database = "asset managament"
 username = "root"
 password = "70013029"
+
+conn = st.connection('mysql', type='sql')
