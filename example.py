@@ -1,6 +1,14 @@
 import streamlit as st
+import pandas as pd
+import mysql.connector
 
-conn = st.connection('mysql', type='sql')
+def app():
+    conn = mysql.connector.connect( host="localhost",
+                                    port="3307",
+                                    user="root",
+                                    passwd="70013029",
+                                    db="asset management"
+                                  )
 
 st.title('Tools Log')
 Tools_ID_input = st.text_area('Tools Id')
