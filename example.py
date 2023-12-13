@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import mysql.connector
+import mysqlclient
 
 def app():
     conn = mysql.connector.connect( host="localhost",
